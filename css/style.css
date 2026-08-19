@@ -612,13 +612,13 @@ section{ padding:110px 0; }
 .reviews-track-inner{
   display:flex;
   width:max-content;
-  animation:reviews-scroll 32s linear infinite;
+  animation:reviews-scroll 118s linear infinite;
 }
 .reviews-track:hover .reviews-track-inner{ animation-play-state:paused; }
 
 @keyframes reviews-scroll{
   from{ transform:translateX(0); }
-  to{ transform:translateX(-33.3334%); }
+  to{ transform:translateX(-50%); }
 }
 
 @media(prefers-reduced-motion:reduce){
