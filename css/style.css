@@ -618,7 +618,7 @@ section{ padding:110px 0; }
 
 @keyframes reviews-scroll{
   from{ transform:translateX(0); }
-  to{ transform:translateX(-50%); }
+  to{ transform:translateX(-33.3334%); }
 }
 
 @media(prefers-reduced-motion:reduce){
